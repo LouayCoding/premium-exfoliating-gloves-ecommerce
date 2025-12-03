@@ -1,0 +1,32 @@
+# Development files
+*.md
+!README.md
+!DEPLOYMENT.md
+
+# MCP Server (niet nodig in productie)
+mcp-server-mollie.ts
+MCP-MOLLIE-README.md
+
+# Development docs
+SETUP.md
+WEBSITE-AUDIT.md
+
+# Test files
+*.test.ts
+*.test.tsx
+*.spec.ts
+*.spec.tsx
+
+# Local env (gebruik Vercel env vars)
+.env.local
+.env*.local
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
